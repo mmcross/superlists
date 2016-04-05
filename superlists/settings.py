@@ -25,7 +25,7 @@ SECRET_KEY = '3vie(=0(fm!s1mvac=8tu-_7#u8n8ag#hy*g51w6t-e$hyjabf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [wuwenjie.top]
+ALLOWED_HOSTS = []
 
 
 # Application definition
