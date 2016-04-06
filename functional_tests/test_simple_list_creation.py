@@ -1,8 +1,9 @@
 ﻿from .base import FunctionalTest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
+from unittest import skip
 class NewVisitorTest(FunctionalTest):
+
 	def test_can_start_a_list_and_retrieve_it_later(self):
 		self.browser.get(self.server_url)
 
